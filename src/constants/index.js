@@ -17,9 +17,7 @@ import {
   foundation,
   azure,
   deloitte,
-  aws,
-  DigitalOcean,
-  CloudFlare,
+  
   
 } from "../assets";
 
@@ -52,7 +50,7 @@ const services = [
     icon: ux,
   },
   {
-    title: "Monitoring and Logging",
+    title: "Monitoring and Logging of System",
     icon: prototyping,
   },
 ];
