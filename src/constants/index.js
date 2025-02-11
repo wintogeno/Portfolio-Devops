@@ -19,7 +19,7 @@ import {
   deloitte,
   aws,
   DigitalOcean,
-  
+  CloudFlare,
   
 } from "../assets";
 
