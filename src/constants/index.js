@@ -16,7 +16,11 @@ import {
   practitioner,
   foundation,
   azure,
-  deloitte
+  deloitte,
+  aws,
+  DigitalOcean,
+  
+  
 } from "../assets";
 
 export const navLinks = [
