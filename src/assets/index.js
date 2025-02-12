@@ -48,6 +48,7 @@ import terraform from "./tech/terraform.png";
 import kodekloud from "./certificates/kodekloud.png";
 import kodekloud2 from "./certificates/kodekloudecs.png";
 import kubekost from "./certificates/kubekost.png";
+import wideanchor from "./certificates/wildanchor.png";
 export {
   foundation,
   practitioner,
@@ -97,4 +98,5 @@ export {
   kodekloud,
   kodekloud2,
   kubekost,
+  wideanchor,
 };

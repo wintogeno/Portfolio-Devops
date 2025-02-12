@@ -26,6 +26,7 @@ import {
   kodekloud,
   kodekloud2,
   kubekost,
+  wideanchor,
 } from "../assets";
 
 export const navLinks = [
@@ -130,7 +131,7 @@ const experiences = [
   },
   {
     title: 'Devops Engineer',
-    company_name: 'WideAchor Group',
+    company_name: 'WideAnchor Group',
     icon: microverse,
     iconBg: '#333333',
     date: 'Nov 2022 - May 2024',
@@ -171,7 +172,14 @@ const projects = [
     repo: "#",
     demo: "https://media.licdn.com/dms/document/media/v2/D4D2DAQFc5ZF-zfsWHg/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1728936497474?e=1740009600&v=beta&t=xDbzf1PkNGxKbmIoVzPr8_lwb3UYU0kv3sqQlEzTGYI",
   },
-  
+  {
+    id: "project-4",
+    name: "WideAnchor Group",
+    description: "WildAnchor Group Certificate",
+    image: wideanchor,
+    repo: "#",
+    demo: "https://www.linkedin.com/in/muhammad-muneeb-4a46b5194/details/certifications/1730303023960/single-media-viewer/?profileId=ACoAAC2qZ3wBOY9j5_cn2hwvY8fpmlRbrf69Ew0"
+  },
  
 ];
 
