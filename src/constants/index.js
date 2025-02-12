@@ -134,7 +134,7 @@ const experiences = [
     company_name: 'WideAnchor Group',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Nov 2022 - May 2024',
+    date: 'Nov 2021 - May 2024',
   },
  
   {
