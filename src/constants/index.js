@@ -79,47 +79,13 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: 'HTML 5',
-    icon: html,
-  },
-  {
-    name: 'CSS 3',
-    icon: css,
-  },
+  
   {
     name: 'jenkins',
     icon: jenkins,
   },
   
-  // {
-  //   name: 'TypeScript',
-  //   icon: typescript,
-  // },
-  // {
-  //   name: 'React JS',
-  //   icon: reactjs,
-  // },
-  // {
-  //   name: 'Redux Toolkit',
-  //   icon: redux,
-  // },
-  // {
-  //   name: 'Tailwind CSS',
-  //   icon: tailwind,
-  // },
-  // {
-  //   name: 'Node JS',
-  //   icon: nodejs,
-  // },
-  // {
-  //   name: 'Rails',
-  //   icon: rubyrails,
-  // },
-  // {
-  //   name: 'graphql',
-  //   icon: graphql,
-  // },
+ 
   {
     name: 'postgresql',
     icon: postgresql,
@@ -205,23 +171,8 @@ const projects = [
     repo: "#",
     demo: "https://media.licdn.com/dms/document/media/v2/D4D2DAQFc5ZF-zfsWHg/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1728936497474?e=1740009600&v=beta&t=xDbzf1PkNGxKbmIoVzPr8_lwb3UYU0kv3sqQlEzTGYI",
   },
-  {
-    id: "project-4",
-    name: "Deloitte",
-    description:
-      "Technology Consulting Virtual Internship",
-    image: deloitte,
-    repo: "#",
-    demo: "https://manp1209.s3.ap-south-1.amazonaws.com/FqFtWwQzNxJ8Qsh5H_Deloitte_P9vz2x4Mcp37hehcd_completion_certificate.pdf",
-  },
-  {
-    id: "project-5",
-    name: "AWS Academy Foundation Graduate ",
-    description: "View my verified achievement from Amazon Web Services (AWS).",
-    image: foundation,
-    repo: "#",
-    demo: "https://manp1209.s3.ap-south-1.amazonaws.com/AWS_Academy_Graduate___AWS_Academy_Cloud_Foundations_Badge20230804-28-luyiiy.pdf",
-  },
+  
+ 
 ];
 
 export { services, technologies, experiences, projects };
