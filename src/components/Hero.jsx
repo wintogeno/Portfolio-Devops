@@ -47,7 +47,7 @@ const Hero = () => {
                 text-eerieBlack text-[3rem] font-mova
                 font-extrabold uppercase"
               >                
-                Manpreet
+                MUHAMMAD MUNEEB
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-gray-500`}>

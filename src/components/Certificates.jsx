@@ -30,7 +30,7 @@ const CertificateCard = ({
         className="absolute top-0 left-0 z-10 bg-jetLight 
       h-full w-full opacity-[0.5] rounded-[24px]"
       ></div>
-
+Monitoring and Logging of System
       <img
         src={image}
         alt={name}
@@ -134,7 +134,7 @@ const Certificates = () => {
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
         >
           <span className="font-semibold">Certifications:</span> As a seasoned DevOps professional with
-          over a 1.5 - 2 years of experience, I proudly showcase my achievements,
+          over a 2.5 years of experience, I proudly showcase my achievements,
           including AWS certifications, on my portfolio site. These
           certifications reflect my expertise in cloud technologies and further
           validate my commitment to delivering top-notch solutions in the

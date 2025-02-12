@@ -3,7 +3,8 @@ import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
 import logo from './logo/logo-black.png';
-
+import argocd from './tech/argocd.png';
+import helm from './tech/helm.png';
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
 import frontend from './icons/frontend.png';
@@ -17,7 +18,7 @@ import menu from './icons/menu.png';
 import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
-
+import jenkins from './tech/jenkins.png';
 import css from './tech/css.png';
 import docker from './tech/docker.png';
 import figma from './tech/figma.png';
@@ -32,7 +33,7 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
-
+import kubernetes from './tech/kubenetes1.png';
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
@@ -42,11 +43,15 @@ import foundation from "./certificates/aws-academy-cloud-foundations.png";
 import practitioner from "./certificates/aws-certified-cloud-practitioner.png";
 import azure from "./certificates/azure.png";
 import deloitte from "./certificates/deloitte.png";
-
-
+import aws from "./tech/aws.png";
+import terraform from "./tech/terraform.png";
+import kodekloud from "./certificates/kodekloud.png";
+import kodekloud2 from "./certificates/kodekloudecs.png";
+import kubekost from "./certificates/kubekost.png";
 export {
   foundation,
   practitioner,
+  kubernetes,
   azure,
   deloitte,
   bwmap,  
@@ -84,4 +89,12 @@ export {
   dcc,
   kelhel,
   microverse,
+  aws,
+  terraform,
+  jenkins,
+  argocd,
+  helm,
+  kodekloud,
+  kodekloud2,
+  kubekost,
 };

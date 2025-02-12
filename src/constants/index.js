@@ -17,8 +17,15 @@ import {
   foundation,
   azure,
   deloitte,
-  
-  
+  kubernetes,
+  aws,  
+  terraform,
+  jenkins,
+  argocd,
+  helm,
+  kodekloud,
+  kodekloud2,
+  kubekost,
 } from "../assets";
 
 export const navLinks = [
@@ -45,6 +52,7 @@ const services = [
     title: "CI/CD",
     icon: backend,
   },
+  
   {
     title: "Infrastructure as Code (IaC)",
     icon: ux,
@@ -53,6 +61,21 @@ const services = [
     title: "Monitoring and Logging of System",
     icon: prototyping,
   },
+  {
+    title: "Containerization",
+    icon: prototyping,
+  },
+  {
+    title: "Cloud Computing",
+    icon: prototyping,
+  },
+  {
+    title: "Aws",
+    icon: aws,
+  },
+  
+  
+  
 ];
 
 const technologies = [
@@ -65,9 +88,10 @@ const technologies = [
     icon: css,
   },
   {
-    name: 'JavaScript',
-    icon: javascript,
+    name: 'jenkins',
+    icon: jenkins,
   },
+  
   // {
   //   name: 'TypeScript',
   //   icon: typescript,
@@ -108,64 +132,78 @@ const technologies = [
     name: 'docker',
     icon: docker,
   },
+  {
+    name: 'kubernetes',
+    icon: kubernetes,
+  },
+  {
+    name: 'aws',
+    icon: aws,
+  },
+  {
+    name: 'terraform',
+    icon: terraform,
+  },
+  {
+    name: 'argocd',
+    icon: argocd,
+  },
+  {
+   name: 'helm', 
+   icon: helm,
+  },
 ];
 
 const experiences = [
   {
     title: 'DevOps Engineer',
-    company_name: 'Ellocent Labs',
+    company_name: 'Micromerger',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'May 2022 - Present',
+    date: 'Nov 2023 - Present',
   },
   {
-    title: 'Softwaree Engineer associate',
-    company_name: 'Xenonstack',
+    title: 'Devops Engineer',
+    company_name: 'WideAchor Group',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Jan 2022 - Apr 2022',
+    date: 'Nov 2022 - May 2024',
   },
+ 
   {
-    title: 'Clound Engineer Intern',
-    company_name: 'Simba Developers',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'June 2021 - Dec 2021',
-  },
-  {
-    title: 'B.tech CSE',
-    company_name: 'GNA University, Phagwara',
+    title: 'BS Computer Science',
+    company_name: 'Bahria University, Islamabad',
     icon: dcc,
     iconBg: '#333333',
-    date: 'July 2018 - June 2022',
+    date: 'Sep 2019 - July 2023',
   },
 ];
 
 const projects = [
   {
     id: "project-1",
-    name: "AWS Academy Foundation Graduate ",
+    name: " KodeKloud AWS Code Pipeline (CI/CD) ",
     description: "View my verified achievement from Amazon Web Services (AWS).",
-    image: foundation,
+    image: kodekloud,
     repo: "#",
-    demo: "https://manp1209.s3.ap-south-1.amazonaws.com/AWS_Academy_Graduate___AWS_Academy_Cloud_Foundations_Badge20230804-28-luyiiy.pdf",
+    demo: "https://certificates.kodekloud.com/243632f1-9ea3-4f55-9d3d-8ea385ff204e/adf846a7-70ba-42c6-8b05-1d1b2c414bd5/36ea877b-dffc-4c79-a3b1-dab8bf22c064.pdf",
   },
   {
     id: "project-2",
-    name: "AWS Certified Cloud Practitioner",
+    name: "KodeKloud AWS Elastic Container Service (ECS) ",
     description:
-      "AWS Academy Graduate issued by  Amazon Web Services Training and Certification.",
-    image: practitioner,
+      "AWS Elastic Container Service (ECS) ",
+    image: kodekloud2,
     repo: "#",
-    demo: "https://manp1209.s3.ap-south-1.amazonaws.com/AWS+Certified+Cloud+Practitioner+certificate.pdf",
+    demo: "https://certificates.kodekloud.com/243632f1-9ea3-4f55-9d3d-8ea385ff204e/07e9e4b2-0b65-490c-87d7-22d243e0709b/e9e09a59-bbee-4ad8-abd7-6b1c37c761aa.pdf",
   },
   {
     id: "project-3",
-    name: "Azure",
-    description: "Create a virtual machine and deploy a Web Server",
-    image: azure,
+    name: "KubeKost",
+    description: "Kubecost Technical Certification",
+    image: kubekost,
     repo: "#",
-    demo: "https://manp1209.s3.ap-south-1.amazonaws.com/Azure.pdf",
+    demo: "https://media.licdn.com/dms/document/media/v2/D4D2DAQFc5ZF-zfsWHg/profile-treasury-document-pdf-analyzed/profile-treasury-document-pdf-analyzed/0/1728936497474?e=1740009600&v=beta&t=xDbzf1PkNGxKbmIoVzPr8_lwb3UYU0kv3sqQlEzTGYI",
   },
   {
     id: "project-4",
